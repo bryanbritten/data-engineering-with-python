@@ -8,9 +8,10 @@ The purpose of this project is simply to gain familiarity with the various tools
 
 # Usage
 
-In order to get this to run on your local machine, clone the repo and run the following two commands:
+In order to get this to run on your local machine, clone the repo, navigate to the repo's directory, and run the following commands:
 
 ```
+docker compose build --no-cache
 docker compose up airflow-init
 docker compose up
 ```
